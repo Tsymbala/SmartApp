@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Teko&display=swap');
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header {
+    background: url(../img/background.jpg);
+    height: 570px;
+}
+
+#nav {
+    border: 1px solid white;
+    height: 100px;
+    background: white;
+    opacity: 0.7;
+    display: flex;
+}
+.logo {
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+    color: white;
+    background: black;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color:black;
+    padding: 0.3rem;
+    margin: 2.5rem;
+    font-family:'Teko', sans-serif; 
+    font-size: 1rem;
+    border: 1px solid white;
+}
+
+.menu a:hover {
+    border: 1px solid black;
+    border-radius: 3px; 
+}
+
+#home_text {
+    font-size: 1.1rem;
+    font-family: 'Jura', sans-serif;
+    background: white;
+    width: 500px ;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+    margin: 8rem 3rem ;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+#home_img {
+    position: relative;
+    left:650px;
+    top:-420px  
+}
