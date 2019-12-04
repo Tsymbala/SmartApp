@@ -11,22 +11,17 @@ header {
 }
 
 #nav {
-    border: 1px solid white;
     height: 100px;
-    background: white;
-    opacity: 0.7;
     display: flex;
 }
 .logo {
     font-family: 'Teko', sans-serif;
     font-size: 3rem;
-    color: white;
-    background: black;
-    width: 300px;
+    color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.3);
+    width: 50%;
     height: 100px;
-    border: 1px solid black;
     margin: 0;
-    opacity: 0.7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,22 +30,26 @@ header {
 .menu {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
+    background:  rgba(255,255,255,0.5);
+    height: 100px;
+    width: 100%;
+    margin: 0;
 }
 
 .menu a {
     text-decoration: none;
     color:black;
-    padding: 0.3rem;
-    margin: 2.5rem;
+    padding: 0.2rem;
     font-family:'Teko', sans-serif; 
     font-size: 1rem;
-    border: 1px solid white;
+    border: 1px solid rgba(255,255,255,0);
+    margin: 2rem;
 }
 
 .menu a:hover {
-    border: 1px solid black;
+    border: 1px solid rgb(75, 75, 75);
     border-radius: 3px; 
 }
 
@@ -70,6 +69,6 @@ header {
 
 #home_img {
     position: relative;
-    left:650px;
-    top:-420px  
+    left:640px;
+    top:-430px  
 }
