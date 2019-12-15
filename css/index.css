@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Jura|Teko&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
     max-width: 980px;
     margin: auto;
@@ -43,10 +44,10 @@ header {
     text-decoration: none;
     color:black;
     padding: 0.2rem;
-    font-family:'Teko', sans-serif; 
+    font-family: 'Comfortaa', cursive;
     font-size: 1rem;
     border: 1px solid rgba(255,255,255,0);
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .menu a:hover {
@@ -72,4 +73,92 @@ header {
     position: relative;
     left:640px;
     top:-430px  
+}
+
+#offers {
+    height: ;
+}
+
+.title_offers {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 2rem;
+}
+
+#carousel1 {
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.sub_title_one {
+    font-family: 'Comfortaa', cursive;
+}
+
+.sub_title_two {
+    font-family: 'Comfortaa', cursive;
+}
+
+.sub_title_three {
+    font-family: 'Comfortaa', cursive;
+}
+
+#carousel2 {
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title_portfolio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 2rem;
+}
+
+#portfolio {
+    background: url(../img/background.jpg);
+    height: 570px;
+}
+
+#title_form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    margin: 2rem;
+}
+
+#contact form{
+    height: 500px;
+
+}
+
+#form {
+    width: 250px;
+    margin: 1rem;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem;  
+    flex-direction: column;
+    display: flex; 
+}
+
+#button {
+    margin: 0 2.5rem;
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 14px;
+}
+#img_form {
+    float: left;
+}
+
+#one {
+
 }

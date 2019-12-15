@@ -7,6 +7,9 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>SmartApp-web та mobile розробка</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="libs/owlcarousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel2/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -28,45 +31,55 @@
         </section>
     </header>
     <main>
-        <section id="offers">
-            <h2>Що ми можемо?</h2>
-            <h3>Розробка мобільних додатків</h3>
-            <p>SmartApp спеціалізується на розробці нативних мобільних додатків під дві найпопулярніші операційні системи: Android і iOS (iPhone, iPad, iPod). Для бізнесу це нові продажі, задоволені клієнти і більше прибутку. На сьогоднішній день наявності сайту компаніям вже недостатньо, а мобільні додатки дозволили стати ближче до своїх клієнтів.</p>
-            <img src="img/device-finger-applications.png" alt="смартфон з додатками">
-            <h3>Розробка веб-сайту</h3>
-            <p>Веб-сайт компанії будь-якого рівня і напрямку - потужний інструмент для побудови комунікації з цільовою аудиторією в інтернеті. SmartApp надає послуги веб-розробки, які вирішують різнопланові бізнес-завдання клієнта. Ми створюємо сайти, які ефективно просувають товари і послуги в насиченому конкурентному середовищі.</p>
-            <img src="img/computer-www.png" alt="комп'ютер з вебсайтом">
-            <h3>Розроблення дизайну</h3>
-            <p>Дизайн, в першу чергу, це творча діяльність, основною метою якої є художньо-технічне проектування Інтернет-ресурсу (веб-сайту, порталу, інтернет-магазину або логотипу). В основі будь-якої дизайнерської діяльності лежить генерація нових, нестандартних, оригінальних ідей і їх реалізація в проекті.
-               Веб-дизайн складний і творчий етап у розробці, так як тут крім естетичних чинників, відіграють велику роль першочергові цілі і завдання проекту, маркетингові тренди. Дизайн повинен розкрити фірмовий стиль компанії, і приємно запам'ятатися відвідувачу.</p>
-            <img src="img/design.png" alt="інструмент для малювання">
+        <!-- <section id="offers">
+            <h2 class="title_offers">Що ми можемо?</h2>
+            <div class="owl-carousel owl-theme" id="carousel1">
+                <div>
+                    <h3 class="sub_title_one">Розробка мобільних додатків</h3>
+                    <p>SmartApp спеціалізується на розробці нативних мобільних додатків під дві найпопулярніші операційні системи: Android і iOS (iPhone, iPad, iPod). Для бізнесу це нові продажі, задоволені клієнти і більше прибутку. На сьогоднішній день наявності сайту компаніям вже недостатньо, а мобільні додатки дозволили стати ближче до своїх клієнтів.</p>
+                    <img src="img/device-finger-applications.png" alt="">
+                </div>
+                <div>
+                    <h3 class="sub_title_two">Розробка веб-сайту</h3>
+                    <p>Веб-сайт компанії будь-якого рівня і напрямку - потужний інструмент для побудови комунікації з цільовою аудиторією в інтернеті. SmartApp надає послуги веб-розробки, які вирішують різнопланові бізнес-завдання клієнта. Ми створюємо сайти, які ефективно просувають товари і послуги в насиченому конкурентному середовищі.</p>
+                    <img src="img/computer-www.png" alt="">
+                </div>
+                <div>
+                    <h3 class="sub_title_three">Розроблення дизайну</h3>
+                    <p>Дизайн, в першу чергу, це творча діяльність, основною метою якої є художньо-технічне проектування Інтернет-ресурсу (веб-сайту, порталу, інтернет-магазину або логотипу). В основі будь-якої дизайнерської діяльності лежить генерація нових, нестандартних, оригінальних ідей і їх реалізація в проекті.
+                     Веб-дизайн складний і творчий етап у розробці, так як тут крім естетичних чинників, відіграють велику роль першочергові цілі і завдання проекту, маркетингові тренди. Дизайн повинен розкрити фірмовий стиль компанії, і приємно запам'ятатися відвідувачу.</p>
+                    <img src="img/design.png" alt="">
+                    </div>
+            </div>
         </section>
         <section id="portfolio">
-            <h2>Наші роботи</h2>
-            <img src="img/oasistour.jpg" alt="туристична компанія">
-            <img src="img/flixbus.jpg" alt="автобусні перевезення">
-            <img src="img/uber-app.jpg" alt="убер додаток">
-        </section>
-        <section id="form">
-            <h2>Контактна форма</h2>
-            <form>
+            <h2 id="title_portfolio">Наші роботи</h2>
+            <div class="owl-carousel owl-theme" id="carousel2">
+                <div><img src="img/oasistour.jpg" alt="туристична компанія"></div>
+                <div><img src="img/flixbus.jpg" alt="автобусні перевезення"></div>
+                <div><img src="img/uber-app.jpg" alt="убер додаток"></div>
+            </div>
+        </section> -->
+        <section id="contact form">
+            <h2 id="title_form">Контактна форма</h2>
+            <form id="form">
                 <label> 
-                <input type="text" name="name" placeholder="Прізвище та ім'я:">
-                </label><br>
-                <label> 
-                <input type="text" name="email" placeholder="Email address">
-                </label><br>
-                <label> 
-                <input type="text" name="type-project" placeholder="Тип проекту">
-                </label><br>
-                <label> 
-                <input type="text" name="phone" placeholder="Телефон">
-                </label><br>
-                <label>
-                <input type="submit" value="Надіслати">
+                    <input type="text" name="name" placeholder="Прізвище та ім'я:">
                 </label>
-                <img src="img/manager.png" alt="Менеджер">
+                <label> 
+                    <input type="text" name="email" placeholder="Email address">
+                </label>
+                <label> 
+                    <input type="text" name="type-project" placeholder="Тип проекту">
+                </label>
+                <label> 
+                    <input type="text" name="phone" placeholder="Телефон">
+                </label>
+                <label>
+                    <input id="button" type="submit" value="Надіслати">
+                </label>
             </form>
+            <img id="img_form" src="img/manager.png" alt="Менеджер">
         </section>
 	</main>
     <footer>
@@ -80,6 +93,9 @@
             <img src="img/maps.jpg" alt="мапа розміщення">
         </div>
     </footer>
+    <script src="libs/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libs/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
