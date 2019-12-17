@@ -59,6 +59,7 @@ header {
 .menu a:hover {
     border: 1px solid rgb(75, 75, 75);
     border-radius: 3px; 
+    box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.151);
 }
 
 #home_text {
@@ -96,32 +97,51 @@ header {
     margin: 2rem;
 }
 
-#title_form {
-    display: flex;
-    justify-content: center;
-    font-family: 'Comfortaa', cursive;
-    margin: 2rem;
+#contact_form {
+    height: 500px;
 }
 
-#contact form{
-    height: 200px;
-
+#title_form {
+    font-family: 'Comfortaa', cursive;
+    margin: 32px;
+    justify-content: center;
+    display: flex;
 }
 
 #form {
-    width: 250px;
-    margin: 1rem;
-    box-sizing: border-box;
+    width: 300px;
+    /* box-sizing: border-box; */
     border: 1.5px solid black;
     font-family: 'Montserrat', sans-serif;
-    padding: 1.5rem;  
-    /* flex-direction: column;
-    display: flex;  */
+    padding: 2.5rem;  
     float: left;
+    box-shadow: 15px 15px 2px 0px rgba(0, 0, 0, 0.151);
+    position: relative;
+    top: -100px;
+    left: 60px;
+}
+
+#subtitle_form {
+    border: 1px dashed black;
+    width: 300px;
+    height: 100px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-shadow: 10px 10px 2px 0px rgba(0, 0, 0, 0.151);
+    position: relative;
+    top: 117px;
+    left: 400px;
 }
 
 #img_form {
-    float: right;
+    /* float: right; */
+    height: 400px;
+    position: relative;
+    top: -86px;
+    left: 400px;
 }
 
 #button {
@@ -132,15 +152,17 @@ header {
     padding: 10px 27px;
     text-align: center;
     text-decoration: none;
-    /* display: inline-block; */
     font-size: 14px;
+}
+
+.form_input {
+    height: 3rem;
 }
 
 #carouselOffers {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     padding: 1.5rem;
     height: 300px;
-
 }
 
 .offers_text {
@@ -151,4 +173,37 @@ header {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     padding: 1.5rem;
     height: 400px;
+}
+
+#contact {
+    height: 600px;
+    background: url(../img/background.jpg);
+}
+
+#contact_info {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    border: 1px dashed white;
+    width: 420px;
+    height: 130px;
+    position: relative;
+    top: 60px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0.9;
+    box-shadow: 10px 10px 2px 0px rgba(0, 140, 255, 0.5);
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#map {
+    position: relative;
+    top: 130px;
 }
