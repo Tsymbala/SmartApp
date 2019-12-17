@@ -86,29 +86,6 @@ header {
     margin: 2rem;
 }
 
-#carousel1 {
-    height: 500px;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.sub_title_one {
-    font-family: 'Comfortaa', cursive;
-}
-
-.sub_title_two {
-    font-family: 'Comfortaa', cursive;
-}
-
-.sub_title_three {
-    font-family: 'Comfortaa', cursive;
-}
-
-#carousel2 {
-    height: 500px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 #title_portfolio {
     display: flex;
     justify-content: center;
@@ -154,11 +131,4 @@ header {
     text-decoration: none;
     /* display: inline-block; */
     font-size: 14px;
-}
-#img_form {
-    float: left;
-}
-
-#one {
-
 }
